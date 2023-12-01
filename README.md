@@ -1,3 +1,17 @@
 Project name: Just Assignment 1
 
 I made this page for people who are looking to shop online for electronics such as mobile phones and laptops instead of going out to a irl shop to buy them, as these electronics specifically laptops, desktops and tvs are very big and heavy, and extremely awkward to carry around, buying them online makes it easier as it negates the need for the buyer to carry these items from the irl shop they brought it from to their house, instead they can just order it online and have it delivered to their doorsteps.
+This is the link to my figma wireframe i did during the design process, you would notice that the figma wireframe has considerably less pages that the actual website, but thats because the website layouts are very similar for many of the pages and i wanted to save some time. And also, my figma wireframe is not gonna look the complete same as my actual website since the wireframe to me is just how it MIGHT look like. The link: https://www.figma.com/file/Y4HS9NQEPTZZ4YsGnURGQD/Pages?type=design&node-id=0%3A1&mode=design&t=QsFf8RaTyaPmyD95-1.
+I would include the folder of the wireframe images in this repository as well.
+
+Existing features:    Pictures of products, you can click on this pictures to be redirected to another page that will show more images of the product and the specs of the product itself as well as its price, and on that page you can also order the item if you want to. At the top of the webpage you can also click on the different image icons and words to be redirected to different pages such as a page focused on showcasing laptops, or the shopping cart page where you can see what you orderd and pay for what you ordered. Also, when you arrive at the payment page, you cant just fill in the blanks for the bank card details with whatever you want. I used regEx to make the format specific to the card type. so if its 4 numbers repeated 4 times like 1000 2000 3000 4000, the numbers you put in must be in that format as i coded my regEx to only match that specific format. There is also a simple search area where you can search for things, if you put in a word and there is a exising webpage with that word, you will be redirected to that webpage, else nothing will happen.
+
+Planned features: Make the shopping carts work, when the user click the order button, the shopping cart will add the item and the amount ordered and increase the price and amount ordered accordingly, when the user finish filling in the bank card details, the shopping cart will become empty again. I actually wanted to implement these features but the javascript just would not work and i dont know why.
+
+For the programming languages used, its just the standard html, css and javascript, html for the base elements of the webpage, css to style and make the webpage look nicer and javascript to give the webpages some basic functionality.
+
+My project should in theory look like how the mobile version of my wireframe looks when launched on mobile.
+
+I got my inspiration for the layout from the singapore apple website.
+I got my images from all sorts of places online such as the official apple website, oppo website, sony website, huawei website, panesonic website, sumsang website etc.
+I never really copied any text except for the specs for the products with i copied from the website mentioned above and more. ( I dont remember all the websites i used and i cant find all of them, i am just listing the ones that i remember and can find.)
