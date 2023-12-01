@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header{
+    margin-left: 620px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.Credit{
+    position: absolute;
+    font-size: xx-large;
+    height: 250px;
+    width: 500px;
+    margin-left: 325px;
+}
+
+.Debit{
+    font-size: xx-large;
+    height: 250px;
+    width: 500px;
+    margin-top: 300px;
+    margin-right: 325px;
+}
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.image1{
+    padding-left: 300px;
+    height: 75px;
+    width: 75px;
+}
+
+.Container p{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+.image2{
+    padding-left: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.image3{
+    padding-left: 20px;
+    margin-top: -5px;
+    height: 30px;
+    width: 30px;
+}

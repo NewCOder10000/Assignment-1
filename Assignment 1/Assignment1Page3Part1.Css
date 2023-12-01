@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image1 {
+    height: 75px;
+    width: 75px;
+}
+
+.Container a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+
+.image2 {
+    height: 20px;
+    width: 20px;
+}
+
+.image3 {
+    height: 30px;
+    width: 30px;
+}
+
+.lbl1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.image4 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.p0 {
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#price {
+    font-weight: bold;
+}
+
+.Button1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Button1:hover {
+    background-color: #0056b3;
+}
+
+.Container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.p1 {
+    font-size: 14px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.top-row a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    padding-left: 20px;
+}
